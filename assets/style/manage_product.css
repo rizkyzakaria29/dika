@@ -1,0 +1,89 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styling */
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Form container styling */
+.form-container {
+    margin: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, button {
+    margin-top: 5px;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+/* Table styling */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Action buttons styling */
+.action-buttons {
+    display: flex;
+}
+
+.update-button, .delete-button, .checkout-button {
+    margin-right: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.update-button {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.checkout-button {
+    background-color: #008CBA;
+    color: #fff;
+}

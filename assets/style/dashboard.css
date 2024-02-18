@@ -1,0 +1,45 @@
+/* Reset some default styles */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Background color */
+}
+
+h1, h2 {
+    color: #007bff; /* Heading text color */
+}
+
+.btn-logout {
+    background-color: #dc3545; /* Logout button background color */
+    color: #fff; /* Logout button text color */
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn-logout:hover {
+    background-color: #bd2130; /* Logout button background color on hover */
+}
+
+.dashboard-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Content background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.text-blue-500 {
+    color: #007bff; /* Blue text color */
+}
+
+.text-blue-500:hover {
+    text-decoration: underline; /* Underline text on hover */
+}
