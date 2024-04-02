@@ -15,8 +15,8 @@ $realName = $_SESSION['nama'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OCEAN | Welcome Cashier!</title>
-    <link rel="icon" href="./../assets/images/ocean.png" type="image/x-icon">
+    <title>BIUNIC | Welcome Cashier!</title>
+    <link rel="icon" href="./../assets/images/biunic.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/style/dashboard.css">
 </head>
@@ -25,7 +25,7 @@ $realName = $_SESSION['nama'];
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
   <a class="navbar-brand" href="#">
-  <img src="../assets/images/ocean.png" alt="ocean" width="30" height="24" class="d-inline-block align-text-top">
+  <img src="../assets/images/biunic.png" alt="ocean" width="30" height="24" class="d-inline-block align-text-top">
     <a class="navbar-brand" href="">Dashboard</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -46,23 +46,10 @@ $realName = $_SESSION['nama'];
 
     <div class="dashboard-content">
         <h2>Dashboard</h2>
-        <p>Welcome to the Ocean cashier dashboard. You can manage products and perform other tasks here.</p>
+        <p>Welcome to the Biunic cashier dashboard. You can manage products and perform other tasks here.</p>
       </div>
       
-      <footer>
-      <div class="socials">
-          <a href="https://www.instagram.com/rizkimaulha/"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-      </div>
-      <div class="credit">
-          <p>Created by <a href="#">Hakim</a>. | &copy; 2023.</p>
-      </div>
-  </footer>
-    
-    <form action="../db/DB_logout.php" method="post">
-    <button type="submit" class="btn-logout">Log Out</button>
-    </form>
+      
 
 </footer>
 </body>

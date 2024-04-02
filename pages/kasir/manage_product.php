@@ -17,7 +17,7 @@ $result = $conn->query($query);
     <meta charset=UTF-8>
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <title>Manage | Cashier</title>
-    <link rel="icon" href="../../assets/images/ocean.png" type="image/x-icon">
+    <link rel="icon" href="../../assets/images/biunic.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <link rel="stylesheet" href="../../assets/style/manage_product.css">
 </head>
@@ -26,7 +26,7 @@ $result = $conn->query($query);
 <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
   <a class="navbar-brand" href="#">
-  <img src="../../assets/images/ocean.png" alt="ocean" width="30" height="24" class="d-inline-block align-text-top">
+  <img src="../../assets/images/biunic.png" alt="ocean" width="50" height="30" class="d-inline-block align-text-top">
     <a class="navbar-brand" href="../../pages/dashboard.php">Dashboard</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@ $result = $conn->query($query);
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link active" aria-current="page" href="">Manage</a>
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="galeri.php    ">Galery</a>
         <a class="nav-link" href="#">Pricing</a>
         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
       </div>
@@ -90,6 +90,11 @@ $result = $conn->query($query);
                 <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
                 <button type="submit" class="checkout-button" name="checkout_product">Checkout</button>
             </form>
+            <form action="./belanja.php" method="post">
+                <input type="hidden" name="product_id" value="<?php echo $row['id']; ?>">
+                <button type="submit" class="checkout-button" name="checkout_product">Belanja</button>
+            </form>
+
 </td>
 </tr>
 <?php endwhile; ?>

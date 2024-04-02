@@ -10,38 +10,46 @@ body {
 
 /* Header styling */
 .header {
-    background-color: #333;
+    background-color: #444a50;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 /* Form container styling */
 .form-container {
-    margin: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
-    margin: auto;
 }
 
 label {
     margin-top: 10px;
 }
 
-input, button {
+input[type="text"], input[type="email"], input[type="password"], button {
     margin-top: 5px;
-    padding: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
     cursor: pointer;
-    background-color: #333;
+    background-color: #444a50;
     color: #fff;
     border: none;
+}
+
+button:hover {
+    background-color: #357ae8;
 }
 
 /* Table styling */
@@ -53,24 +61,27 @@ table {
 
 th, td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 10px;
     text-align: left;
 }
 
 th {
-    background-color: #333;
+    background-color: #444a50;
     color: #fff;
 }
 
 /* Action buttons styling */
 .action-buttons {
     display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .update-button, .delete-button, .checkout-button {
-    margin-right: 5px;
-    padding: 5px;
+    margin: 0 5px;
+    padding: 8px 15px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .update-button {

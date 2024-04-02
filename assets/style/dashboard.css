@@ -15,7 +15,7 @@ body {
 
 h1,
 h2 {
-  color: #007bff; /* Heading text color */
+  color: #444a50; /* Heading text color */
 }
 
 .btn-logout {
@@ -42,7 +42,7 @@ h2 {
 }
 
 .text-blue-500 {
-  color: #007bff; /* Blue text color */
+  color: #444a50; /* Blue text color */
 }
 
 .text-blue-500:hover {

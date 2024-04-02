@@ -42,6 +42,9 @@ if(isset($_GET['id'])) {
             <input type="number" name="harga_produk" value="<?php echo htmlspecialchars($product['harga_produk']); ?>" required>
             <br>
             <button type="submit" name="update_product">Update Product</button>
+           
+            <a href="manage_product.php" class="button">kembali</a>
+         
         </form>
     </div>
 </body>
